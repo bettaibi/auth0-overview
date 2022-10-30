@@ -1,3 +1,4 @@
+import LoginButton from '../../components/LoginButton';
 
 
 export default function Login(){
@@ -5,6 +6,7 @@ export default function Login(){
     return (
         <div>
             <h1>This is login Page</h1>
+            <LoginButton />
         </div>
     )
 }
